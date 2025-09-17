@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_q20asJOgEfCJi-7zCmikUw" name="PracticalExercise">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_rAHgoJOgEfCJi-7zCmikUw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Component" xmi:id="_GvzTwJOhEfCJi-7zCmikUw" name="Teacher Subsystem" useCase="_MDh3MJOhEfCJi-7zCmikUw _S4SvkJOhEfCJi-7zCmikUw _W6ziwJOhEfCJi-7zCmikUw _fqeBkJOhEfCJi-7zCmikUw _k8Wx8JOhEfCJi-7zCmikUw _nZC20JOhEfCJi-7zCmikUw">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_MDh3MJOhEfCJi-7zCmikUw" name="Set coursework" subject="_GvzTwJOhEfCJi-7zCmikUw">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_4FhbMJOhEfCJi-7zCmikUw" name="ExtensionPoint3"/>
+      <include xmi:type="uml:Include" xmi:id="_1SQpYJOhEfCJi-7zCmikUw" addition="_fqeBkJOhEfCJi-7zCmikUw"/>
+      <include xmi:type="uml:Include" xmi:id="_2LNqoJOhEfCJi-7zCmikUw" addition="_k8Wx8JOhEfCJi-7zCmikUw"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_S4SvkJOhEfCJi-7zCmikUw" name="Marking student work" subject="_GvzTwJOhEfCJi-7zCmikUw"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_W6ziwJOhEfCJi-7zCmikUw" name="Upload learning material" subject="_GvzTwJOhEfCJi-7zCmikUw"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_fqeBkJOhEfCJi-7zCmikUw" name="Set coursework specification" subject="_GvzTwJOhEfCJi-7zCmikUw"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_k8Wx8JOhEfCJi-7zCmikUw" name="Set marking scheme" subject="_GvzTwJOhEfCJi-7zCmikUw"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_nZC20JOhEfCJi-7zCmikUw" name="ManageCW groups" subject="_GvzTwJOhEfCJi-7zCmikUw">
+      <extend xmi:type="uml:Extend" xmi:id="_4FgNEJOhEfCJi-7zCmikUw" extendedCase="_MDh3MJOhEfCJi-7zCmikUw" extensionLocation="_4FhbMJOhEfCJi-7zCmikUw"/>
+    </ownedUseCase>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_OJznMJOhEfCJi-7zCmikUw" name="Teacher"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Qv-YMJOhEfCJi-7zCmikUw" memberEnd="_QwIJMJOhEfCJi-7zCmikUw _QwJXUJOhEfCJi-7zCmikUw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QwHiIJOhEfCJi-7zCmikUw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QwHiIZOhEfCJi-7zCmikUw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QwIJMJOhEfCJi-7zCmikUw" name="set coursework" type="_MDh3MJOhEfCJi-7zCmikUw" association="_Qv-YMJOhEfCJi-7zCmikUw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QwJXUJOhEfCJi-7zCmikUw" name="teacher" type="_OJznMJOhEfCJi-7zCmikUw" association="_Qv-YMJOhEfCJi-7zCmikUw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ckDDMJOhEfCJi-7zCmikUw" memberEnd="_ckDqQpOhEfCJi-7zCmikUw _ckDqQ5OhEfCJi-7zCmikUw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ckDqQJOhEfCJi-7zCmikUw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ckDqQZOhEfCJi-7zCmikUw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ckDqQpOhEfCJi-7zCmikUw" name="marking student work" type="_S4SvkJOhEfCJi-7zCmikUw" association="_ckDDMJOhEfCJi-7zCmikUw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ckDqQ5OhEfCJi-7zCmikUw" name="teacher" type="_OJznMJOhEfCJi-7zCmikUw" association="_ckDDMJOhEfCJi-7zCmikUw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dgQz0JOhEfCJi-7zCmikUw" memberEnd="_dgRa4JOhEfCJi-7zCmikUw _dgRa4ZOhEfCJi-7zCmikUw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dgQz0ZOhEfCJi-7zCmikUw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dgQz0pOhEfCJi-7zCmikUw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_dgRa4JOhEfCJi-7zCmikUw" name="upload learning material" type="_W6ziwJOhEfCJi-7zCmikUw" association="_dgQz0JOhEfCJi-7zCmikUw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_dgRa4ZOhEfCJi-7zCmikUw" name="teacher" type="_OJznMJOhEfCJi-7zCmikUw" association="_dgQz0JOhEfCJi-7zCmikUw"/>
+  </packagedElement>
+</uml:Model>
