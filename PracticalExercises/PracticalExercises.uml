@@ -3,7 +3,7 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_DG09oJyDEfCj5JSR4nqIAw">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Artifact" xmi:id="_Tuv4gJyLEfCj5JSR4nqIAw" name="MobileShopping-Customer" useCase="_ZtAmsJyLEfCj5JSR4nqIAw _dsR4oJyLEfCj5JSR4nqIAw _gSlzkJyLEfCj5JSR4nqIAw _nRjJwJyLEfCj5JSR4nqIAw _pd2CMJyLEfCj5JSR4nqIAw">
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_Tuv4gJyLEfCj5JSR4nqIAw" name="MobileShopping-Customer" useCase="_ZtAmsJyLEfCj5JSR4nqIAw _dsR4oJyLEfCj5JSR4nqIAw _gSlzkJyLEfCj5JSR4nqIAw _nRjJwJyLEfCj5JSR4nqIAw _pd2CMJyLEfCj5JSR4nqIAw _97hBcJylEfCVu9OUlYfmzw">
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ZtAmsJyLEfCj5JSR4nqIAw" name="FindProductLocation" subject="_Tuv4gJyLEfCj5JSR4nqIAw">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_yifSgJyLEfCj5JSR4nqIAw" name="ExtensionPoint1"/>
     </ownedUseCase>
@@ -15,6 +15,7 @@
       <extend xmi:type="uml:Extend" xmi:id="_yiercJyLEfCj5JSR4nqIAw" extendedCase="_ZtAmsJyLEfCj5JSR4nqIAw" extensionLocation="_yifSgJyLEfCj5JSR4nqIAw"/>
     </ownedUseCase>
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_pd2CMJyLEfCj5JSR4nqIAw" name="MakePayment" subject="_Tuv4gJyLEfCj5JSR4nqIAw"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_97hBcJylEfCVu9OUlYfmzw" name="SearchProduct" subject="_Tuv4gJyLEfCj5JSR4nqIAw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_Xt7D0JyLEfCj5JSR4nqIAw" name="Customer"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_srlJgJyLEfCj5JSR4nqIAw" memberEnd="_srr3MJyLEfCj5JSR4nqIAw _sruTcJyLEfCj5JSR4nqIAw">
@@ -37,5 +38,12 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_ujGr0pyLEfCj5JSR4nqIAw" name="makereview" type="_gSlzkJyLEfCj5JSR4nqIAw" association="_ujGEwJyLEfCj5JSR4nqIAw"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_ujGr05yLEfCj5JSR4nqIAw" name="customer" type="_Xt7D0JyLEfCj5JSR4nqIAw" association="_ujGEwJyLEfCj5JSR4nqIAw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_AmhPIJymEfCVu9OUlYfmzw" memberEnd="_AmjrYJymEfCVu9OUlYfmzw _AmjrYZymEfCVu9OUlYfmzw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AmjEUJymEfCVu9OUlYfmzw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AmjEUZymEfCVu9OUlYfmzw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_AmjrYJymEfCVu9OUlYfmzw" name="searchproduct" type="_97hBcJylEfCVu9OUlYfmzw" association="_AmhPIJymEfCVu9OUlYfmzw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_AmjrYZymEfCVu9OUlYfmzw" name="customer" type="_Xt7D0JyLEfCj5JSR4nqIAw" association="_AmhPIJymEfCVu9OUlYfmzw"/>
   </packagedElement>
 </uml:Model>
