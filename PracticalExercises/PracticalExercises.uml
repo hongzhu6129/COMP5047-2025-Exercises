@@ -3,26 +3,80 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_DG09oJyDEfCj5JSR4nqIAw">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Artifact" xmi:id="_Tuv4gJyLEfCj5JSR4nqIAw" name="MobileShopping-Customer" useCase="_ZtAmsJyLEfCj5JSR4nqIAw _dsR4oJyLEfCj5JSR4nqIAw _gSlzkJyLEfCj5JSR4nqIAw _nRjJwJyLEfCj5JSR4nqIAw _pd2CMJyLEfCj5JSR4nqIAw _97hBcJylEfCVu9OUlYfmzw">
-    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ZtAmsJyLEfCj5JSR4nqIAw" name="FindProductLocation" subject="_Tuv4gJyLEfCj5JSR4nqIAw">
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_Tuv4gJyLEfCj5JSR4nqIAw" name="MobileShopping-Customer" useCase="_ZtAmsJyLEfCj5JSR4nqIAw _dsR4oJyLEfCj5JSR4nqIAw _gSlzkJyLEfCj5JSR4nqIAw _nRjJwJyLEfCj5JSR4nqIAw _pd2CMJyLEfCj5JSR4nqIAw _97hBcJylEfCVu9OUlYfmzw _sQzeMKEOEfCJl97uh2kqUA _15IDUKEOEfCJl97uh2kqUA _GNtsIKEPEfCJl97uh2kqUA _qtI2kKEPEfCJl97uh2kqUA _dbwjQKETEfCJl97uh2kqUA _1FBTkKETEfCJl97uh2kqUA _5fmogKETEfCJl97uh2kqUA _khR_AKEUEfCJl97uh2kqUA _mrJOgKEUEfCJl97uh2kqUA _pYAdYKEUEfCJl97uh2kqUA __a_MYKEUEfCJl97uh2kqUA _vvIsoKEWEfCPP8W5c_FYdg _yo5IAKEWEfCPP8W5c_FYdg">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ZtAmsJyLEfCj5JSR4nqIAw" name="LocateProduct" subject="_Tuv4gJyLEfCj5JSR4nqIAw">
+      <extend xmi:type="uml:Extend" xmi:id="_g_nBUKEPEfCJl97uh2kqUA" extendedCase="_97hBcJylEfCVu9OUlYfmzw" extensionLocation="_g_noYKEPEfCJl97uh2kqUA"/>
+      <extend xmi:type="uml:Extend" xmi:id="_l4FzMKEPEfCJl97uh2kqUA" extendedCase="_GNtsIKEPEfCJl97uh2kqUA" extensionLocation="_l4GaQKEPEfCJl97uh2kqUA"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_yifSgJyLEfCj5JSR4nqIAw" name="ExtensionPoint1"/>
     </ownedUseCase>
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_dsR4oJyLEfCj5JSR4nqIAw" name="OrderProduct" subject="_Tuv4gJyLEfCj5JSR4nqIAw">
+      <extend xmi:type="uml:Extend" xmi:id="_Kl-TkKEUEfCJl97uh2kqUA" extendedCase="_nRjJwJyLEfCj5JSR4nqIAw" extensionLocation="_Kl-6oKEUEfCJl97uh2kqUA"/>
       <include xmi:type="uml:Include" xmi:id="_wxEYMJyLEfCj5JSR4nqIAw" addition="_pd2CMJyLEfCj5JSR4nqIAw"/>
     </ownedUseCase>
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_gSlzkJyLEfCj5JSR4nqIAw" name="MakeReview" subject="_Tuv4gJyLEfCj5JSR4nqIAw"/>
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_nRjJwJyLEfCj5JSR4nqIAw" name="ViewProductInfo" subject="_Tuv4gJyLEfCj5JSR4nqIAw">
       <extend xmi:type="uml:Extend" xmi:id="_yiercJyLEfCj5JSR4nqIAw" extendedCase="_ZtAmsJyLEfCj5JSR4nqIAw" extensionLocation="_yifSgJyLEfCj5JSR4nqIAw"/>
+      <extend xmi:type="uml:Extend" xmi:id="_CUR8cKEPEfCJl97uh2kqUA" extendedCase="_97hBcJylEfCVu9OUlYfmzw" extensionLocation="_CUTKkKEPEfCJl97uh2kqUA"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_pEYMMaETEfCJl97uh2kqUA" name="ExtensionPoint3"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Kl-6oKEUEfCJl97uh2kqUA" name="ExtensionPoint4"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_G8zGEKEXEfCPP8W5c_FYdg" name="ExtensionPoint5"/>
     </ownedUseCase>
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_pd2CMJyLEfCj5JSR4nqIAw" name="MakePayment" subject="_Tuv4gJyLEfCj5JSR4nqIAw"/>
-    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_97hBcJylEfCVu9OUlYfmzw" name="SearchProduct" subject="_Tuv4gJyLEfCj5JSR4nqIAw"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_97hBcJylEfCVu9OUlYfmzw" name="SearchProduct" subject="_Tuv4gJyLEfCj5JSR4nqIAw">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_CUTKkKEPEfCJl97uh2kqUA" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_aEnlIKEPEfCJl97uh2kqUA" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_g_noYKEPEfCJl97uh2kqUA" name="ExtensionPoint3"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_0b9sUKEPEfCJl97uh2kqUA" name="ExtensionPoint4"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_sQzeMKEOEfCJl97uh2kqUA" name="Registration" subject="_Tuv4gJyLEfCj5JSR4nqIAw"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_15IDUKEOEfCJl97uh2kqUA" name="UpdatePersonalData" subject="_Tuv4gJyLEfCj5JSR4nqIAw"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_GNtsIKEPEfCJl97uh2kqUA" name="NavigateInShop" subject="_Tuv4gJyLEfCj5JSR4nqIAw">
+      <extend xmi:type="uml:Extend" xmi:id="_aEm-EKEPEfCJl97uh2kqUA" extendedCase="_97hBcJylEfCVu9OUlYfmzw" extensionLocation="_aEnlIKEPEfCJl97uh2kqUA"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_l4GaQKEPEfCJl97uh2kqUA" name="ExtensionPoint3"/>
+      <include xmi:type="uml:Include" xmi:id="_byv64KEPEfCJl97uh2kqUA" addition="_ZtAmsJyLEfCj5JSR4nqIAw"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_qtI2kKEPEfCJl97uh2kqUA" name="View Reviews" subject="_Tuv4gJyLEfCj5JSR4nqIAw">
+      <extend xmi:type="uml:Extend" xmi:id="_0b9FQKEPEfCJl97uh2kqUA" extendedCase="_97hBcJylEfCVu9OUlYfmzw" extensionLocation="_0b9sUKEPEfCJl97uh2kqUA"/>
+      <extend xmi:type="uml:Extend" xmi:id="_G8x38KEXEfCPP8W5c_FYdg" extendedCase="_nRjJwJyLEfCj5JSR4nqIAw" extensionLocation="_G8zGEKEXEfCPP8W5c_FYdg"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_dbwjQKETEfCJl97uh2kqUA" name="PurchaseProduct" subject="_Tuv4gJyLEfCj5JSR4nqIAw">
+      <extend xmi:type="uml:Extend" xmi:id="_pEYMMKETEfCJl97uh2kqUA" extendedCase="_nRjJwJyLEfCj5JSR4nqIAw" extensionLocation="_pEYMMaETEfCJl97uh2kqUA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_1FBTkKETEfCJl97uh2kqUA" name="OnlinePurchase" subject="_Tuv4gJyLEfCj5JSR4nqIAw">
+      <generalization xmi:type="uml:Generalization" xmi:id="_7zy4sKETEfCJl97uh2kqUA" general="_dbwjQKETEfCJl97uh2kqUA"/>
+      <include xmi:type="uml:Include" xmi:id="_B9vScKEUEfCJl97uh2kqUA" addition="_pd2CMJyLEfCj5JSR4nqIAw"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_5fmogKETEfCJl97uh2kqUA" name="InPersonPurchase" subject="_Tuv4gJyLEfCj5JSR4nqIAw">
+      <generalization xmi:type="uml:Generalization" xmi:id="_8Z4BQKETEfCJl97uh2kqUA" general="_dbwjQKETEfCJl97uh2kqUA"/>
+      <include xmi:type="uml:Include" xmi:id="_CnG_kKEUEfCJl97uh2kqUA" addition="_pd2CMJyLEfCj5JSR4nqIAw"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_khR_AKEUEfCJl97uh2kqUA" name="ReviewShop" subject="_Tuv4gJyLEfCj5JSR4nqIAw">
+      <generalization xmi:type="uml:Generalization" xmi:id="_y03ZYKEUEfCJl97uh2kqUA" general="_gSlzkJyLEfCj5JSR4nqIAw"/>
+      <include xmi:type="uml:Include" xmi:id="_2EfXEKEUEfCJl97uh2kqUA" addition="_pYAdYKEUEfCJl97uh2kqUA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_mrJOgKEUEfCJl97uh2kqUA" name="ReviewProduct" subject="_Tuv4gJyLEfCj5JSR4nqIAw">
+      <generalization xmi:type="uml:Generalization" xmi:id="_zgctAKEUEfCJl97uh2kqUA" general="_gSlzkJyLEfCj5JSR4nqIAw"/>
+      <include xmi:type="uml:Include" xmi:id="_3tVkMKEUEfCJl97uh2kqUA" addition="_pYAdYKEUEfCJl97uh2kqUA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_pYAdYKEUEfCJl97uh2kqUA" name="ViewShoppingHistory" subject="_Tuv4gJyLEfCj5JSR4nqIAw">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_G8X6MaEVEfCJl97uh2kqUA" name="ExtensionPoint1"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="__a_MYKEUEfCJl97uh2kqUA" name="ViewShippingState" subject="_Tuv4gJyLEfCj5JSR4nqIAw">
+      <extend xmi:type="uml:Extend" xmi:id="_G8X6MKEVEfCJl97uh2kqUA" extendedCase="_pYAdYKEUEfCJl97uh2kqUA" extensionLocation="_G8X6MaEVEfCJl97uh2kqUA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_vvIsoKEWEfCPP8W5c_FYdg" name="View Shop Reviews" subject="_Tuv4gJyLEfCj5JSR4nqIAw">
+      <generalization xmi:type="uml:Generalization" xmi:id="_3oRzIKEWEfCPP8W5c_FYdg" general="_qtI2kKEPEfCJl97uh2kqUA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_yo5IAKEWEfCPP8W5c_FYdg" name="View Product Reviews" subject="_Tuv4gJyLEfCj5JSR4nqIAw">
+      <generalization xmi:type="uml:Generalization" xmi:id="_4p190KEWEfCPP8W5c_FYdg" general="_qtI2kKEPEfCJl97uh2kqUA"/>
+    </ownedUseCase>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_Xt7D0JyLEfCj5JSR4nqIAw" name="Customer"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_srlJgJyLEfCj5JSR4nqIAw" memberEnd="_srr3MJyLEfCj5JSR4nqIAw _sruTcJyLEfCj5JSR4nqIAw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_srrQIJyLEfCj5JSR4nqIAw" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_srrQIZyLEfCj5JSR4nqIAw" key="nature" value="UML_Nature"/>
     </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_srr3MJyLEfCj5JSR4nqIAw" name="findproductlocation" type="_ZtAmsJyLEfCj5JSR4nqIAw" association="_srlJgJyLEfCj5JSR4nqIAw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_srr3MJyLEfCj5JSR4nqIAw" name="findproductlocation" type="_GNtsIKEPEfCJl97uh2kqUA" association="_srlJgJyLEfCj5JSR4nqIAw"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_sruTcJyLEfCj5JSR4nqIAw" name="customer" type="_Xt7D0JyLEfCj5JSR4nqIAw" association="_srlJgJyLEfCj5JSR4nqIAw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_ttIGEJyLEfCj5JSR4nqIAw" memberEnd="_ttIGE5yLEfCj5JSR4nqIAw _ttIGFJyLEfCj5JSR4nqIAw">
@@ -45,5 +99,26 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_AmjrYJymEfCVu9OUlYfmzw" name="searchproduct" type="_97hBcJylEfCVu9OUlYfmzw" association="_AmhPIJymEfCVu9OUlYfmzw"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_AmjrYZymEfCVu9OUlYfmzw" name="customer" type="_Xt7D0JyLEfCj5JSR4nqIAw" association="_AmhPIJymEfCVu9OUlYfmzw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_60DFMKEOEfCJl97uh2kqUA" memberEnd="_60IkwKEOEfCJl97uh2kqUA _60IkwaEOEfCJl97uh2kqUA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_60H9sKEOEfCJl97uh2kqUA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_60H9saEOEfCJl97uh2kqUA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_60IkwKEOEfCJl97uh2kqUA" name="registration" type="_sQzeMKEOEfCJl97uh2kqUA" association="_60DFMKEOEfCJl97uh2kqUA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_60IkwaEOEfCJl97uh2kqUA" name="customer" type="_Xt7D0JyLEfCj5JSR4nqIAw" association="_60DFMKEOEfCJl97uh2kqUA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8BvnYKEOEfCJl97uh2kqUA" memberEnd="_8Bw1gaEOEfCJl97uh2kqUA _8Bw1gqEOEfCJl97uh2kqUA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8BwOcKEOEfCJl97uh2kqUA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8Bw1gKEOEfCJl97uh2kqUA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8Bw1gaEOEfCJl97uh2kqUA" name="updatepersonaldata" type="_15IDUKEOEfCJl97uh2kqUA" association="_8BvnYKEOEfCJl97uh2kqUA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8Bw1gqEOEfCJl97uh2kqUA" name="customer" type="_Xt7D0JyLEfCj5JSR4nqIAw" association="_8BvnYKEOEfCJl97uh2kqUA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_D_0CcKEVEfCJl97uh2kqUA" memberEnd="_D_0pgqEVEfCJl97uh2kqUA _D_1QkKEVEfCJl97uh2kqUA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_D_0pgKEVEfCJl97uh2kqUA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_D_0pgaEVEfCJl97uh2kqUA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_D_0pgqEVEfCJl97uh2kqUA" name="viewshoppinghistory" type="_pYAdYKEUEfCJl97uh2kqUA" association="_D_0CcKEVEfCJl97uh2kqUA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_D_1QkKEVEfCJl97uh2kqUA" name="customer" type="_Xt7D0JyLEfCj5JSR4nqIAw" association="_D_0CcKEVEfCJl97uh2kqUA"/>
   </packagedElement>
 </uml:Model>
