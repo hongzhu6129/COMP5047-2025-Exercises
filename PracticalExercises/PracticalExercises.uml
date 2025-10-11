@@ -478,4 +478,181 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_yxK-oqE0EfCPP8W5c_FYdg" name="sellhouse" type="_E3jAEKEzEfCPP8W5c_FYdg" association="_yxKXkKE0EfCPP8W5c_FYdg"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_yxK-o6E0EfCPP8W5c_FYdg" name="seller" type="_gY6N4KE0EfCPP8W5c_FYdg" association="_yxKXkKE0EfCPP8W5c_FYdg"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_rBIlQKE-EfCKAOM0QoVNdg" name="Papyrus Demo - Use Case Diagram" useCase="_-5WF0KE-EfCKAOM0QoVNdg _NHrMwKE_EfCKAOM0QoVNdg _juV3oKE_EfCKAOM0QoVNdg">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_-5WF0KE-EfCKAOM0QoVNdg" name="Draw A Subject Box" subject="_rBIlQKE-EfCKAOM0QoVNdg"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_NHrMwKE_EfCKAOM0QoVNdg" name="Draw A Use Case Node" subject="_rBIlQKE-EfCKAOM0QoVNdg">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_qamUQKE_EfCKAOM0QoVNdg" name="ExtensionPoint1"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_juV3oKE_EfCKAOM0QoVNdg" name="Change Use Case Details" subject="_rBIlQKE-EfCKAOM0QoVNdg">
+      <extend xmi:type="uml:Extend" xmi:id="_qaltMKE_EfCKAOM0QoVNdg" extendedCase="_NHrMwKE_EfCKAOM0QoVNdg" extensionLocation="_qamUQKE_EfCKAOM0QoVNdg"/>
+    </ownedUseCase>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_TWuI8KE_EfCKAOM0QoVNdg" name="Model Developer"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_bFHYAKE_EfCKAOM0QoVNdg" memberEnd="_bFJ0QaE_EfCKAOM0QoVNdg _bFJ0QqE_EfCKAOM0QoVNdg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bFJNMKE_EfCKAOM0QoVNdg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bFJ0QKE_EfCKAOM0QoVNdg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bFJ0QaE_EfCKAOM0QoVNdg" name="draw a subject box" type="_-5WF0KE-EfCKAOM0QoVNdg" association="_bFHYAKE_EfCKAOM0QoVNdg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bFJ0QqE_EfCKAOM0QoVNdg" name="model developer" type="_TWuI8KE_EfCKAOM0QoVNdg" association="_bFHYAKE_EfCKAOM0QoVNdg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_caeocKE_EfCKAOM0QoVNdg" memberEnd="_cafPgqE_EfCKAOM0QoVNdg _caf2kKE_EfCKAOM0QoVNdg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cafPgKE_EfCKAOM0QoVNdg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cafPgaE_EfCKAOM0QoVNdg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_cafPgqE_EfCKAOM0QoVNdg" name="draw a use case node" type="_NHrMwKE_EfCKAOM0QoVNdg" association="_caeocKE_EfCKAOM0QoVNdg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_caf2kKE_EfCKAOM0QoVNdg" name="model developer" type="_TWuI8KE_EfCKAOM0QoVNdg" association="_caeocKE_EfCKAOM0QoVNdg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_WakOoKaIEfCHHJimReoQtw" name="Customer Registration" node="_rMaF4KaIEfCHHJimReoQtw _t6ljYKaIEfCHHJimReoQtw _CL-Y8KaJEfCHHJimReoQtw _POxg4KaJEfCHHJimReoQtw _tbJ_8KaJEfCHHJimReoQtw _FHsGsKaKEfCHHJimReoQtw _S0vskKaKEfCHHJimReoQtw _gdh2cKaKEfCHHJimReoQtw _mMbBAKaMEfCCQYNExPnNyw _xfLHoKaMEfCCQYNExPnNyw _BCMwoKaNEfCCQYNExPnNyw _2kBvUKaREfCCQYNExPnNyw _EMyEAKaSEfCCQYNExPnNyw _J3dH0KaSEfCCQYNExPnNyw _N6CMcKaSEfCCQYNExPnNyw _CtGkgKaTEfCCQYNExPnNyw _RyG0wKaTEfCCQYNExPnNyw _WETpwKaTEfCCQYNExPnNyw _aCbFIKaTEfCCQYNExPnNyw _3G6IAKaTEfCCQYNExPnNyw _BFgfIKaUEfCCQYNExPnNyw _LySK4KaUEfCCQYNExPnNyw _U3UcwKaUEfCCQYNExPnNyw _cTTGIKaUEfCCQYNExPnNyw _iJeX4KarEfCCQYNExPnNyw _yZLgsKarEfCCQYNExPnNyw _5-gTUKarEfCCQYNExPnNyw _BpkhkKasEfCCQYNExPnNyw _Id7KQKasEfCCQYNExPnNyw _MZhdIKasEfCCQYNExPnNyw _X3_EgKasEfCCQYNExPnNyw" group="_iFfksKaIEfCHHJimReoQtw _l-hrwKaIEfCHHJimReoQtw">
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_T2i9QKaJEfCHHJimReoQtw" target="_POxg4KaJEfCHHJimReoQtw" source="_CL-Y8KaJEfCHHJimReoQtw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_T2qSAKaJEfCHHJimReoQtw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_T2qSAaaJEfCHHJimReoQtw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_fpIagKaJEfCHHJimReoQtw" target="_t6ljYKaIEfCHHJimReoQtw" source="_rMaF4KaIEfCHHJimReoQtw"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_xWQjkKaJEfCHHJimReoQtw" target="_tbJ_8KaJEfCHHJimReoQtw" source="_POxg4KaJEfCHHJimReoQtw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_xWZGcKaJEfCHHJimReoQtw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_xWZGcaaJEfCHHJimReoQtw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_3ajBQKaJEfCHHJimReoQtw" target="_CL-Y8KaJEfCHHJimReoQtw" source="_t6ljYKaIEfCHHJimReoQtw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_3apu8KaJEfCHHJimReoQtw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_3apu8aaJEfCHHJimReoQtw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_HHKrIKaKEfCHHJimReoQtw" target="_FHsGsKaKEfCHHJimReoQtw" source="_tbJ_8KaJEfCHHJimReoQtw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_HHRY0KaKEfCHHJimReoQtw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_HHRY0aaKEfCHHJimReoQtw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_UzU5IKaKEfCHHJimReoQtw" name="[quit registration]" target="_S0vskKaKEfCHHJimReoQtw" source="_FHsGsKaKEfCHHJimReoQtw">
+      <guard xmi:type="uml:Expression" xmi:id="_GoZPAKaLEfCHHJimReoQtw" name="Expression1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_pqXZcKaKEfCHHJimReoQtw" name="[else]" inPartition="_iFfksKaIEfCHHJimReoQtw" target="_gdh2cKaKEfCHHJimReoQtw" source="_FHsGsKaKEfCHHJimReoQtw">
+      <guard xmi:type="uml:Expression" xmi:id="_6__BcKaKEfCHHJimReoQtw" name="Expression1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_0ia2MKaMEfCCQYNExPnNyw" target="_mMbBAKaMEfCCQYNExPnNyw" source="_gdh2cKaKEfCHHJimReoQtw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_0iqGwKaMEfCCQYNExPnNyw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_0iqGwaaMEfCCQYNExPnNyw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_5A6awKaMEfCCQYNExPnNyw" target="_xfLHoKaMEfCCQYNExPnNyw" source="_mMbBAKaMEfCCQYNExPnNyw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_5BGoAKaMEfCCQYNExPnNyw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_5BGoAaaMEfCCQYNExPnNyw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DDfS8KaNEfCCQYNExPnNyw" inPartition="_l-hrwKaIEfCHHJimReoQtw" target="_BCMwoKaNEfCCQYNExPnNyw" source="_xfLHoKaMEfCCQYNExPnNyw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_RblnoKaSEfCCQYNExPnNyw" name="[User name already used]" inPartition="_l-hrwKaIEfCHHJimReoQtw" target="_2kBvUKaREfCCQYNExPnNyw" source="_BCMwoKaNEfCCQYNExPnNyw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_W7b7gKaSEfCCQYNExPnNyw" name="[Email address already used]" inPartition="_l-hrwKaIEfCHHJimReoQtw" target="_EMyEAKaSEfCCQYNExPnNyw" source="_BCMwoKaNEfCCQYNExPnNyw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ZvSjMKaSEfCCQYNExPnNyw" name="[Phone number already used]" inPartition="_l-hrwKaIEfCHHJimReoQtw" target="_J3dH0KaSEfCCQYNExPnNyw" source="_BCMwoKaNEfCCQYNExPnNyw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_efzr4KaSEfCCQYNExPnNyw" name="[else]" inPartition="_l-hrwKaIEfCHHJimReoQtw" target="_N6CMcKaSEfCCQYNExPnNyw" source="_BCMwoKaNEfCCQYNExPnNyw"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_JcUOgKaTEfCCQYNExPnNyw" target="_CtGkgKaTEfCCQYNExPnNyw" source="_2kBvUKaREfCCQYNExPnNyw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_JcfNoKaTEfCCQYNExPnNyw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_JcfNoaaTEfCCQYNExPnNyw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_Ryvt8KaTEfCCQYNExPnNyw" target="_RyG0wKaTEfCCQYNExPnNyw" source="_CtGkgKaTEfCCQYNExPnNyw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_Ry3pwKaTEfCCQYNExPnNyw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_Ry4Q0KaTEfCCQYNExPnNyw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_eELqYKaTEfCCQYNExPnNyw" target="_WETpwKaTEfCCQYNExPnNyw" source="_EMyEAKaSEfCCQYNExPnNyw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_eEa68KaTEfCCQYNExPnNyw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_eEa68aaTEfCCQYNExPnNyw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_gG9acKaTEfCCQYNExPnNyw" target="_aCbFIKaTEfCCQYNExPnNyw" source="_J3dH0KaSEfCCQYNExPnNyw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_gHHygKaTEfCCQYNExPnNyw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_gHIZkKaTEfCCQYNExPnNyw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_i8VsIKaTEfCCQYNExPnNyw" target="_RyG0wKaTEfCCQYNExPnNyw" source="_WETpwKaTEfCCQYNExPnNyw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_i8gEMKaTEfCCQYNExPnNyw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_i8gEMaaTEfCCQYNExPnNyw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_jpVVAKaTEfCCQYNExPnNyw" target="_RyG0wKaTEfCCQYNExPnNyw" source="_aCbFIKaTEfCCQYNExPnNyw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_jpftEKaTEfCCQYNExPnNyw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_jpftEaaTEfCCQYNExPnNyw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_nzqAYKaTEfCCQYNExPnNyw" inPartition="_iFfksKaIEfCHHJimReoQtw" target="_gdh2cKaKEfCHHJimReoQtw" source="_RyG0wKaTEfCCQYNExPnNyw"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_9cei8KaTEfCCQYNExPnNyw" target="_3G6IAKaTEfCCQYNExPnNyw" source="_N6CMcKaSEfCCQYNExPnNyw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_9cpiEKaTEfCCQYNExPnNyw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_9cpiEaaTEfCCQYNExPnNyw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Nc1BIKaUEfCCQYNExPnNyw" inPartition="_iFfksKaIEfCHHJimReoQtw" target="_LySK4KaUEfCCQYNExPnNyw" source="_BFgfIKaUEfCCQYNExPnNyw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_gTYQYKaUEfCCQYNExPnNyw" name="[Ok to provide optional registration data]" inPartition="_iFfksKaIEfCHHJimReoQtw" target="_cTTGIKaUEfCCQYNExPnNyw" source="_LySK4KaUEfCCQYNExPnNyw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_l-YM4KarEfCCQYNExPnNyw" inPartition="_l-hrwKaIEfCHHJimReoQtw" target="_iJeX4KarEfCCQYNExPnNyw" source="_N6CMcKaSEfCCQYNExPnNyw"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_nOnFsKarEfCCQYNExPnNyw" target="_U3UcwKaUEfCCQYNExPnNyw" source="_iJeX4KarEfCCQYNExPnNyw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_nO29UKarEfCCQYNExPnNyw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_nO3kYKarEfCCQYNExPnNyw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_tFEiwKarEfCCQYNExPnNyw" target="_cTTGIKaUEfCCQYNExPnNyw" source="_U3UcwKaUEfCCQYNExPnNyw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_tF3M8KarEfCCQYNExPnNyw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_tF3M8aarEfCCQYNExPnNyw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_01smcKarEfCCQYNExPnNyw" target="_yZLgsKarEfCCQYNExPnNyw" source="_cTTGIKaUEfCCQYNExPnNyw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_016o4KarEfCCQYNExPnNyw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_016o4aarEfCCQYNExPnNyw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_8tTb4KarEfCCQYNExPnNyw" target="_5-gTUKarEfCCQYNExPnNyw" source="_yZLgsKarEfCCQYNExPnNyw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_8theUKarEfCCQYNExPnNyw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_8theUaarEfCCQYNExPnNyw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_R1bsMKasEfCCQYNExPnNyw" target="_MZhdIKasEfCCQYNExPnNyw" source="_BpkhkKasEfCCQYNExPnNyw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_R1pHkKasEfCCQYNExPnNyw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_R1pHkaasEfCCQYNExPnNyw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_T6rhcKasEfCCQYNExPnNyw" target="_Id7KQKasEfCCQYNExPnNyw" source="_MZhdIKasEfCCQYNExPnNyw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_T6480KasEfCCQYNExPnNyw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_T6480aasEfCCQYNExPnNyw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Ykm58KasEfCCQYNExPnNyw" target="_X3_EgKasEfCCQYNExPnNyw" source="_Id7KQKasEfCCQYNExPnNyw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_aY9McKasEfCCQYNExPnNyw" name="[else]" target="_X3_EgKasEfCCQYNExPnNyw" source="_LySK4KaUEfCCQYNExPnNyw"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_qnVfkKasEfCCQYNExPnNyw" target="_BFgfIKaUEfCCQYNExPnNyw" source="_3G6IAKaTEfCCQYNExPnNyw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_qnnMYKasEfCCQYNExPnNyw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_qnnMYaasEfCCQYNExPnNyw" value="1"/>
+    </edge>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_iFfksKaIEfCHHJimReoQtw" name="Customer" node="_t6ljYKaIEfCHHJimReoQtw _FHsGsKaKEfCHHJimReoQtw _gdh2cKaKEfCHHJimReoQtw _RyG0wKaTEfCCQYNExPnNyw _BFgfIKaUEfCCQYNExPnNyw _LySK4KaUEfCCQYNExPnNyw _cTTGIKaUEfCCQYNExPnNyw _Id7KQKasEfCCQYNExPnNyw" edge="_pqXZcKaKEfCHHJimReoQtw _nzqAYKaTEfCCQYNExPnNyw _Nc1BIKaUEfCCQYNExPnNyw _gTYQYKaUEfCCQYNExPnNyw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_l-hrwKaIEfCHHJimReoQtw" name="CloudShop-Customer Subsystem" node="_POxg4KaJEfCHHJimReoQtw _xfLHoKaMEfCCQYNExPnNyw _BCMwoKaNEfCCQYNExPnNyw _2kBvUKaREfCCQYNExPnNyw _EMyEAKaSEfCCQYNExPnNyw _J3dH0KaSEfCCQYNExPnNyw _N6CMcKaSEfCCQYNExPnNyw _iJeX4KarEfCCQYNExPnNyw _5-gTUKarEfCCQYNExPnNyw _BpkhkKasEfCCQYNExPnNyw" edge="_DDfS8KaNEfCCQYNExPnNyw _RblnoKaSEfCCQYNExPnNyw _W7b7gKaSEfCCQYNExPnNyw _ZvSjMKaSEfCCQYNExPnNyw _efzr4KaSEfCCQYNExPnNyw _l-YM4KarEfCCQYNExPnNyw"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_rMaF4KaIEfCHHJimReoQtw" name="" outgoing="_fpIagKaJEfCHHJimReoQtw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_t6ljYKaIEfCHHJimReoQtw" name="Start Customer Registration" incoming="_fpIagKaJEfCHHJimReoQtw" outgoing="_3ajBQKaJEfCHHJimReoQtw" inPartition="_iFfksKaIEfCHHJimReoQtw"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_CL-Y8KaJEfCHHJimReoQtw" name="Message to request customer registration form" incoming="_3ajBQKaJEfCHHJimReoQtw" outgoing="_T2i9QKaJEfCHHJimReoQtw">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_CL-Y8aaJEfCHHJimReoQtw" value="1"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_POxg4KaJEfCHHJimReoQtw" name="Send Customer Registration Form" incoming="_T2i9QKaJEfCHHJimReoQtw" outgoing="_xWQjkKaJEfCHHJimReoQtw" inPartition="_l-hrwKaIEfCHHJimReoQtw"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_tbJ_8KaJEfCHHJimReoQtw" name="Customer Registration Form" incoming="_xWQjkKaJEfCHHJimReoQtw" outgoing="_HHKrIKaKEfCHHJimReoQtw">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_tbLOEKaJEfCHHJimReoQtw" value="1"/>
+    </node>
+    <node xmi:type="uml:DecisionNode" xmi:id="_FHsGsKaKEfCHHJimReoQtw" name="" incoming="_HHKrIKaKEfCHHJimReoQtw" outgoing="_UzU5IKaKEfCHHJimReoQtw _pqXZcKaKEfCHHJimReoQtw" inPartition="_iFfksKaIEfCHHJimReoQtw"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_S0vskKaKEfCHHJimReoQtw" name="" incoming="_UzU5IKaKEfCHHJimReoQtw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_gdh2cKaKEfCHHJimReoQtw" name="Fill customer registration form" incoming="_pqXZcKaKEfCHHJimReoQtw _nzqAYKaTEfCCQYNExPnNyw" outgoing="_0ia2MKaMEfCCQYNExPnNyw" inPartition="_iFfksKaIEfCHHJimReoQtw"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_mMbBAKaMEfCCQYNExPnNyw" name="Customer registration data = (user name, password, email, address, telephone number)" incoming="_0ia2MKaMEfCCQYNExPnNyw" outgoing="_5A6awKaMEfCCQYNExPnNyw">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_mMeEUKaMEfCCQYNExPnNyw" value="1"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_xfLHoKaMEfCCQYNExPnNyw" name="Check registration data" incoming="_5A6awKaMEfCCQYNExPnNyw" outgoing="_DDfS8KaNEfCCQYNExPnNyw" inPartition="_l-hrwKaIEfCHHJimReoQtw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_BCMwoKaNEfCCQYNExPnNyw" name="" incoming="_DDfS8KaNEfCCQYNExPnNyw" outgoing="_RblnoKaSEfCCQYNExPnNyw _W7b7gKaSEfCCQYNExPnNyw _ZvSjMKaSEfCCQYNExPnNyw _efzr4KaSEfCCQYNExPnNyw" inPartition="_l-hrwKaIEfCHHJimReoQtw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_2kBvUKaREfCCQYNExPnNyw" name="Display error message &quot;User name already used&quot;" incoming="_RblnoKaSEfCCQYNExPnNyw" outgoing="_JcUOgKaTEfCCQYNExPnNyw" inPartition="_l-hrwKaIEfCHHJimReoQtw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_EMyEAKaSEfCCQYNExPnNyw" name="Display error message &quot;Email address already used&quot;" incoming="_W7b7gKaSEfCCQYNExPnNyw" outgoing="_eELqYKaTEfCCQYNExPnNyw" inPartition="_l-hrwKaIEfCHHJimReoQtw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_J3dH0KaSEfCCQYNExPnNyw" name="Display error message &quot;Phone number already used&quot;" incoming="_ZvSjMKaSEfCCQYNExPnNyw" outgoing="_gG9acKaTEfCCQYNExPnNyw" inPartition="_l-hrwKaIEfCHHJimReoQtw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_N6CMcKaSEfCCQYNExPnNyw" name="Confirm successful registration" incoming="_efzr4KaSEfCCQYNExPnNyw" outgoing="_9cei8KaTEfCCQYNExPnNyw _l-YM4KarEfCCQYNExPnNyw" inPartition="_l-hrwKaIEfCHHJimReoQtw"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_CtGkgKaTEfCCQYNExPnNyw" name="Error Message &quot;User name already used&quot;" incoming="_JcUOgKaTEfCCQYNExPnNyw" outgoing="_Ryvt8KaTEfCCQYNExPnNyw">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_CtHyoKaTEfCCQYNExPnNyw" value="1"/>
+    </node>
+    <node xmi:type="uml:MergeNode" xmi:id="_RyG0wKaTEfCCQYNExPnNyw" name="" incoming="_Ryvt8KaTEfCCQYNExPnNyw _i8VsIKaTEfCCQYNExPnNyw _jpVVAKaTEfCCQYNExPnNyw" outgoing="_nzqAYKaTEfCCQYNExPnNyw" inPartition="_iFfksKaIEfCHHJimReoQtw"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_WETpwKaTEfCCQYNExPnNyw" name="Error message &quot;Email address already used&quot;" incoming="_eELqYKaTEfCCQYNExPnNyw" outgoing="_i8VsIKaTEfCCQYNExPnNyw">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_WEUQ0KaTEfCCQYNExPnNyw" value="1"/>
+    </node>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_aCbFIKaTEfCCQYNExPnNyw" name="Error message &quot;Phone number already used&quot;" incoming="_gG9acKaTEfCCQYNExPnNyw" outgoing="_jpVVAKaTEfCCQYNExPnNyw">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_aCbsMKaTEfCCQYNExPnNyw" value="1"/>
+    </node>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_3G6IAKaTEfCCQYNExPnNyw" name="Registration confirmation message" incoming="_9cei8KaTEfCCQYNExPnNyw" outgoing="_qnVfkKasEfCCQYNExPnNyw">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_3G6vEKaTEfCCQYNExPnNyw" value="1"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_BFgfIKaUEfCCQYNExPnNyw" name="View registration confirmation message" incoming="_qnVfkKasEfCCQYNExPnNyw" outgoing="_Nc1BIKaUEfCCQYNExPnNyw" inPartition="_iFfksKaIEfCHHJimReoQtw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_LySK4KaUEfCCQYNExPnNyw" name="" incoming="_Nc1BIKaUEfCCQYNExPnNyw" outgoing="_gTYQYKaUEfCCQYNExPnNyw _aY9McKasEfCCQYNExPnNyw" inPartition="_iFfksKaIEfCHHJimReoQtw"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_U3UcwKaUEfCCQYNExPnNyw" name="Optional registration data form" incoming="_nOnFsKarEfCCQYNExPnNyw" outgoing="_tFEiwKarEfCCQYNExPnNyw">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_U3VD0KaUEfCCQYNExPnNyw" value="1"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_cTTGIKaUEfCCQYNExPnNyw" name="Fill optional registration data form" incoming="_gTYQYKaUEfCCQYNExPnNyw _tFEiwKarEfCCQYNExPnNyw" outgoing="_01smcKarEfCCQYNExPnNyw" inPartition="_iFfksKaIEfCHHJimReoQtw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_iJeX4KarEfCCQYNExPnNyw" name="Send optional registration data form" incoming="_l-YM4KarEfCCQYNExPnNyw" outgoing="_nOnFsKarEfCCQYNExPnNyw" inPartition="_l-hrwKaIEfCHHJimReoQtw"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_yZLgsKarEfCCQYNExPnNyw" name="Optional Registration Data" incoming="_01smcKarEfCCQYNExPnNyw" outgoing="_8tTb4KarEfCCQYNExPnNyw">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_yZMHwKarEfCCQYNExPnNyw" value="1"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_5-gTUKarEfCCQYNExPnNyw" name="Save optional registration data" incoming="_8tTb4KarEfCCQYNExPnNyw" inPartition="_l-hrwKaIEfCHHJimReoQtw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_BpkhkKasEfCCQYNExPnNyw" name="Confirm optional data saved" outgoing="_R1bsMKasEfCCQYNExPnNyw" inPartition="_l-hrwKaIEfCHHJimReoQtw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Id7KQKasEfCCQYNExPnNyw" name="View confirmation message" incoming="_T6rhcKasEfCCQYNExPnNyw" outgoing="_Ykm58KasEfCCQYNExPnNyw" inPartition="_iFfksKaIEfCHHJimReoQtw"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_MZhdIKasEfCCQYNExPnNyw" name="Confirmation message for saving optional data" incoming="_R1bsMKasEfCCQYNExPnNyw" outgoing="_T6rhcKasEfCCQYNExPnNyw">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_MZiEMKasEfCCQYNExPnNyw" value="1"/>
+    </node>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_X3_EgKasEfCCQYNExPnNyw" name="" incoming="_Ykm58KasEfCCQYNExPnNyw _aY9McKasEfCCQYNExPnNyw"/>
+  </packagedElement>
 </uml:Model>
