@@ -1,6 +1,10 @@
 PAPYRUS_EDITOR.color.gradient=RGB {255, 255, 255};RGB {255, 255, 255};0;0
 PAPYRUS_EDITOR.font=1|Segoe UI|11.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI;
 PAPYRUS_EDITOR.rulergrid.gridlevel=true
+PAPYRUS_EDITOR.rulergrid.gridlinestyle=3
 PAPYRUS_EDITOR.rulergrid.gridspacing=5.0
-PAPYRUS_EDITOR.rulergrid.snaptogeometry=true
+PAPYRUS_EDITOR.rulergrid.snaptogrid=false
+PAPYRUS_EDITOR.rulergrid.viewrulers=true
 eclipse.preferences.version=1
+print.page.height=11.692913385826772
+print.page.width=8.267716535433072
