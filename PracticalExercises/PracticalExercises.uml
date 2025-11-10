@@ -1771,6 +1771,28 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sciJ0bypEfCmPuiV1Waysg" name="LiteralUnlimitedNatural1" value="*"/>
       </ownedEnd>
     </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_yMlIoL4kEfCPRPL7MmxHoA" name="Customer Mobile App">
+      <packagedElement xmi:type="uml:Usage" xmi:id="__BH8sL4lEfCPRPL7MmxHoA" client="_yMlIoL4kEfCPRPL7MmxHoA" supplier="_bhhQgL4lEfCPRPL7MmxHoA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_5ebloL4kEfCPRPL7MmxHoA" name="Shop Manager App">
+      <packagedElement xmi:type="uml:Usage" xmi:id="_BlhMEL4mEfCPRPL7MmxHoA" client="_5ebloL4kEfCPRPL7MmxHoA" supplier="_oXT3ML4lEfCPRPL7MmxHoA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_AH0UcL4lEfCPRPL7MmxHoA" name="Service Staff App">
+      <packagedElement xmi:type="uml:Usage" xmi:id="_FKAmgL4mEfCPRPL7MmxHoA" client="_AH0UcL4lEfCPRPL7MmxHoA" supplier="_TXYgoL4lEfCPRPL7MmxHoA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_FKMCIL4lEfCPRPL7MmxHoA" name="Platform Operator app">
+      <packagedElement xmi:type="uml:Usage" xmi:id="_C-DFQL4mEfCPRPL7MmxHoA" client="_FKMCIL4lEfCPRPL7MmxHoA" supplier="_jXdSAL4lEfCPRPL7MmxHoA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_L5xfkL4lEfCPRPL7MmxHoA" name="Mobile Shopping Services">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_hEP5QL4lEfCPRPL7MmxHoA" client="_L5xfkL4lEfCPRPL7MmxHoA" supplier="_TXYgoL4lEfCPRPL7MmxHoA" contract="_TXYgoL4lEfCPRPL7MmxHoA"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_ijW7kL4lEfCPRPL7MmxHoA" client="_L5xfkL4lEfCPRPL7MmxHoA" supplier="_bhhQgL4lEfCPRPL7MmxHoA" contract="_bhhQgL4lEfCPRPL7MmxHoA"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_6_3twL4lEfCPRPL7MmxHoA" client="_L5xfkL4lEfCPRPL7MmxHoA" supplier="_jXdSAL4lEfCPRPL7MmxHoA" contract="_jXdSAL4lEfCPRPL7MmxHoA"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_8aaZIL4lEfCPRPL7MmxHoA" client="_L5xfkL4lEfCPRPL7MmxHoA" supplier="_oXT3ML4lEfCPRPL7MmxHoA" contract="_oXT3ML4lEfCPRPL7MmxHoA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_TXYgoL4lEfCPRPL7MmxHoA" name="API-ServiceStaff"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_bhhQgL4lEfCPRPL7MmxHoA" name="API-Customer"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_jXdSAL4lEfCPRPL7MmxHoA" name="API-Operator"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_oXT3ML4lEfCPRPL7MmxHoA" name="API-Manager"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_X37J0LKDEfCbGOiQGkfr1g">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_X4GI8LKDEfCbGOiQGkfr1g" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
@@ -1790,4 +1812,5 @@
   <standard:Service xmi:id="_3bbvILb9EfCZsMx9M8UTQw" base_Component="_zjChQLb9EfCZsMx9M8UTQw"/>
   <standard:Service xmi:id="_ANGZELb-EfCZsMx9M8UTQw" base_Component="_89is0Lb9EfCZsMx9M8UTQw"/>
   <standard:Service xmi:id="_GN420Lb-EfCZsMx9M8UTQw" base_Component="_C3I9cLb-EfCZsMx9M8UTQw"/>
+  <standard:Service xmi:id="_Rpk7AL4lEfCPRPL7MmxHoA" base_Component="_L5xfkL4lEfCPRPL7MmxHoA"/>
 </xmi:XMI>
