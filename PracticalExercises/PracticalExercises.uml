@@ -4,7 +4,7 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_DG09oJyDEfCj5JSR4nqIAw">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Artifact" xmi:id="_Tuv4gJyLEfCj5JSR4nqIAw" name="MobileShopping-Customer" useCase="_ZtAmsJyLEfCj5JSR4nqIAw _dsR4oJyLEfCj5JSR4nqIAw _gSlzkJyLEfCj5JSR4nqIAw _nRjJwJyLEfCj5JSR4nqIAw _pd2CMJyLEfCj5JSR4nqIAw _97hBcJylEfCVu9OUlYfmzw _sQzeMKEOEfCJl97uh2kqUA _15IDUKEOEfCJl97uh2kqUA _GNtsIKEPEfCJl97uh2kqUA _qtI2kKEPEfCJl97uh2kqUA _dbwjQKETEfCJl97uh2kqUA _1FBTkKETEfCJl97uh2kqUA _5fmogKETEfCJl97uh2kqUA _khR_AKEUEfCJl97uh2kqUA _mrJOgKEUEfCJl97uh2kqUA _pYAdYKEUEfCJl97uh2kqUA __a_MYKEUEfCJl97uh2kqUA _vvIsoKEWEfCPP8W5c_FYdg _yo5IAKEWEfCPP8W5c_FYdg">
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_Tuv4gJyLEfCj5JSR4nqIAw" name="MobileShopping-Customer" useCase="_ZtAmsJyLEfCj5JSR4nqIAw _dsR4oJyLEfCj5JSR4nqIAw _gSlzkJyLEfCj5JSR4nqIAw _nRjJwJyLEfCj5JSR4nqIAw _pd2CMJyLEfCj5JSR4nqIAw _97hBcJylEfCVu9OUlYfmzw _sQzeMKEOEfCJl97uh2kqUA _15IDUKEOEfCJl97uh2kqUA _GNtsIKEPEfCJl97uh2kqUA _qtI2kKEPEfCJl97uh2kqUA _dbwjQKETEfCJl97uh2kqUA _1FBTkKETEfCJl97uh2kqUA _5fmogKETEfCJl97uh2kqUA _khR_AKEUEfCJl97uh2kqUA _mrJOgKEUEfCJl97uh2kqUA _pYAdYKEUEfCJl97uh2kqUA __a_MYKEUEfCJl97uh2kqUA _vvIsoKEWEfCPP8W5c_FYdg _yo5IAKEWEfCPP8W5c_FYdg _31EZ0MIDEfCLPfg3n_9AZA">
       <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ZtAmsJyLEfCj5JSR4nqIAw" name="LocateProduct" subject="_Tuv4gJyLEfCj5JSR4nqIAw">
         <extend xmi:type="uml:Extend" xmi:id="_g_nBUKEPEfCJl97uh2kqUA" extendedCase="_97hBcJylEfCVu9OUlYfmzw" extensionLocation="_g_noYKEPEfCJl97uh2kqUA"/>
         <extend xmi:type="uml:Extend" xmi:id="_l4FzMKEPEfCJl97uh2kqUA" extendedCase="_GNtsIKEPEfCJl97uh2kqUA" extensionLocation="_l4GaQKEPEfCJl97uh2kqUA"/>
@@ -14,7 +14,7 @@
         <extend xmi:type="uml:Extend" xmi:id="_Kl-TkKEUEfCJl97uh2kqUA" extendedCase="_nRjJwJyLEfCj5JSR4nqIAw" extensionLocation="_Kl-6oKEUEfCJl97uh2kqUA"/>
         <include xmi:type="uml:Include" xmi:id="_wxEYMJyLEfCj5JSR4nqIAw" addition="_pd2CMJyLEfCj5JSR4nqIAw"/>
       </ownedUseCase>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_gSlzkJyLEfCj5JSR4nqIAw" name="MakeReview" subject="_Tuv4gJyLEfCj5JSR4nqIAw"/>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_gSlzkJyLEfCj5JSR4nqIAw" name="MakeReview" subject="_Tuv4gJyLEfCj5JSR4nqIAw _oRqWUMIDEfCLPfg3n_9AZA"/>
       <ownedUseCase xmi:type="uml:UseCase" xmi:id="_nRjJwJyLEfCj5JSR4nqIAw" name="ViewProductInfo" subject="_Tuv4gJyLEfCj5JSR4nqIAw">
         <extend xmi:type="uml:Extend" xmi:id="_yiercJyLEfCj5JSR4nqIAw" extendedCase="_ZtAmsJyLEfCj5JSR4nqIAw" extensionLocation="_yifSgJyLEfCj5JSR4nqIAw"/>
         <extend xmi:type="uml:Extend" xmi:id="_CUR8cKEPEfCJl97uh2kqUA" extendedCase="_97hBcJylEfCVu9OUlYfmzw" extensionLocation="_CUTKkKEPEfCJl97uh2kqUA"/>
@@ -71,6 +71,7 @@
       <ownedUseCase xmi:type="uml:UseCase" xmi:id="_yo5IAKEWEfCPP8W5c_FYdg" name="View Product Reviews" subject="_Tuv4gJyLEfCj5JSR4nqIAw">
         <generalization xmi:type="uml:Generalization" xmi:id="_4p190KEWEfCPP8W5c_FYdg" general="_qtI2kKEPEfCJl97uh2kqUA"/>
       </ownedUseCase>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_31EZ0MIDEfCLPfg3n_9AZA" name="UseCase1" subject="_Tuv4gJyLEfCj5JSR4nqIAw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Actor" xmi:id="_Xt7D0JyLEfCj5JSR4nqIAw" name="Customer"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_srlJgJyLEfCj5JSR4nqIAw" memberEnd="_srr3MJyLEfCj5JSR4nqIAw _sruTcJyLEfCj5JSR4nqIAw">
@@ -1378,9 +1379,9 @@
     <packagedElement xmi:type="uml:Interface" xmi:id="_nOe8MLb5EfCZsMx9M8UTQw" name="Authentication"/>
     <packagedElement xmi:type="uml:Component" xmi:id="_zE1fILb5EfCZsMx9M8UTQw" name="CustomerSubSystem-Services">
       <nestedClassifier xmi:type="uml:Interface" xmi:id="_K1f7ILb-EfCZsMx9M8UTQw" name="CheckPassword"/>
-      <nestedClassifier xmi:type="uml:Interface" xmi:id="_UuCGgLb-EfCZsMx9M8UTQw" name="Authenticate"/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_UuCGgLb-EfCZsMx9M8UTQw" name="CheckPermission"/>
       <nestedClassifier xmi:type="uml:Interface" xmi:id="_kBaJ8Lb-EfCZsMx9M8UTQw" name="LocateShop"/>
-      <nestedClassifier xmi:type="uml:Interface" xmi:id="_xc3noLzfEfCmPuiV1Waysg" name="ViewReview"/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_xc3noLzfEfCmPuiV1Waysg" name="ViewReviews"/>
       <packagedElement xmi:type="uml:Component" xmi:id="__UNmELb5EfCZsMx9M8UTQw" name="Authentication Manager">
         <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_RHjE0Lb6EfCZsMx9M8UTQw" client="__UNmELb5EfCZsMx9M8UTQw" supplier="_6Kc28Lb5EfCZsMx9M8UTQw" contract="_6Kc28Lb5EfCZsMx9M8UTQw"/>
         <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_YoaRYLb-EfCZsMx9M8UTQw" client="__UNmELb5EfCZsMx9M8UTQw" supplier="_UuCGgLb-EfCZsMx9M8UTQw" contract="_UuCGgLb-EfCZsMx9M8UTQw"/>
@@ -1421,8 +1422,8 @@
     <packagedElement xmi:type="uml:Interface" xmi:id="_BGwIcLb_EfCZsMx9M8UTQw" name="SearchAndLocateProduct"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_OZGvULb_EfCZsMx9M8UTQw" name="SearchAndLocateProduct"/>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_ZU68oLb_EfCZsMx9M8UTQw" client="_OZGvULb_EfCZsMx9M8UTQw" supplier="_BGwIcLb_EfCZsMx9M8UTQw"/>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_btxqYLb_EfCZsMx9M8UTQw" name="AddReview"/>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_tysBULb_EfCZsMx9M8UTQw" name="AddReview"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_btxqYLb_EfCZsMx9M8UTQw" name="AddReviews"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_tysBULb_EfCZsMx9M8UTQw" name="AddReviews"/>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_213SALb_EfCZsMx9M8UTQw" client="_tysBULb_EfCZsMx9M8UTQw" supplier="_btxqYLb_EfCZsMx9M8UTQw"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_lE3u0LygEfCmPuiV1Waysg" name="DegreeProgramme"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_pj5e4LygEfCmPuiV1Waysg" name="BScHonoursDegreeProgramme">
@@ -1793,6 +1794,20 @@
     <packagedElement xmi:type="uml:Interface" xmi:id="_bhhQgL4lEfCPRPL7MmxHoA" name="API-Customer"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_jXdSAL4lEfCPRPL7MmxHoA" name="API-Operator"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_oXT3ML4lEfCPRPL7MmxHoA" name="API-Manager"/>
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_oRqWUMIDEfCLPfg3n_9AZA" name="Review Manager Internal Behaviour" useCase="_gSlzkJyLEfCj5JSR4nqIAw">
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_KYdcgMIEEfCLPfg3n_9AZA" name=":ViewReview" coveredBy="_EqRVMMIFEfCLPfg3n_9AZA _EqafIMIFEfCLPfg3n_9AZA _UExUUMIFEfCLPfg3n_9AZA"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_nt8IwMIEEfCLPfg3n_9AZA" name=":AddReview" coveredBy="_EqRVMMIFEfCLPfg3n_9AZA _EqafIMIFEfCLPfg3n_9AZA"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_rgEWkMIEEfCLPfg3n_9AZA" name="ReviewManagerService" coveredBy="_EqRVMMIFEfCLPfg3n_9AZA _EqafIMIFEfCLPfg3n_9AZA"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_32CNsMIEEfCLPfg3n_9AZA" name=":ReviewDatabase" coveredBy="_EqRVMMIFEfCLPfg3n_9AZA _EqafIMIFEfCLPfg3n_9AZA"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_6jYkwMIEEfCLPfg3n_9AZA" name=":ReviewSummary" coveredBy="_EqRVMMIFEfCLPfg3n_9AZA _EqafIMIFEfCLPfg3n_9AZA"/>
+      <fragment xmi:type="uml:CombinedFragment" xmi:id="_EqRVMMIFEfCLPfg3n_9AZA" name="CombinedFragment6" covered="_KYdcgMIEEfCLPfg3n_9AZA _32CNsMIEEfCLPfg3n_9AZA _rgEWkMIEEfCLPfg3n_9AZA _6jYkwMIEEfCLPfg3n_9AZA _nt8IwMIEEfCLPfg3n_9AZA" interactionOperator="alt">
+        <operand xmi:type="uml:InteractionOperand" xmi:id="_EqafIMIFEfCLPfg3n_9AZA" name="InteractionOperand0" covered="_KYdcgMIEEfCLPfg3n_9AZA _32CNsMIEEfCLPfg3n_9AZA _rgEWkMIEEfCLPfg3n_9AZA _6jYkwMIEEfCLPfg3n_9AZA _nt8IwMIEEfCLPfg3n_9AZA">
+          <guard xmi:type="uml:InteractionConstraint" xmi:id="_EqafIcIFEfCLPfg3n_9AZA" name="guard"/>
+        </operand>
+      </fragment>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UExUUMIFEfCLPfg3n_9AZA" name="Message7ReceiveEvent" covered="_KYdcgMIEEfCLPfg3n_9AZA" message="_UEpYgMIFEfCLPfg3n_9AZA"/>
+      <message xmi:type="uml:Message" xmi:id="_UEpYgMIFEfCLPfg3n_9AZA" name="Message7" messageSort="asynchCall" receiveEvent="_UExUUMIFEfCLPfg3n_9AZA"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_X37J0LKDEfCbGOiQGkfr1g">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_X4GI8LKDEfCbGOiQGkfr1g" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
